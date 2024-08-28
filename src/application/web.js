@@ -2,8 +2,8 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
-import { errorMiddleware } from "../middleware/error-middleware";
-import { authRouter } from "../routes/auth-api";
+import { errorMiddleware } from "../middleware/error-middleware.js";
+import { authRouter } from "../routes/auth-api.js";
 
 dotenv.config();
 export const web = express();

@@ -1,5 +1,4 @@
-import { response } from "express";
-import usersService from "../service/users-service";
+import usersService from "../service/users-service.js";
 import jwt from "jsonwebtoken";
 
 const register = async (req, res, next) => {
